@@ -8,6 +8,7 @@ common --enable_bzlmod
 common --registry=file://%workspace%/registry
 common --registry=https://registry.build/
 common --registry=https://bcr.bazel.build/
+common --remote_instance_name=4
 
 # Uncomment if you want a local version of the genrules repo
 # common --override_module=genrules=../genrules
